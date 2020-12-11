@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <div class="logo">
+<img src="logo.png" alt="b2tf">
+</div>
+<meta charset="UTF-8"><link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+  
+
+<div class="navigation-container">
+  <a href="index.html">Reference*</a>
+  <a href="about.html">Information</a>
+  <div class="add"><a href="add.html">Add</a></div>
+
+
+<iframe src="https://open.spotify.com/embed/playlist/0uMrPvpciYUqEX7ec2UdwV" position="absolute" margin="left" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+</div>
+
+<div class="rickvideo">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TirA415R7o4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+<div class="basquiatvideo">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hAJCaKbxKLs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+<div class="tremainevideo">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oojD8CMLo98" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+
+<div class="jamesvideo">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WWwOi17WHpE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+
+
+<div class="tylervideo">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UdHp3iyOp_o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+
+
+<div class="virgilvideo">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/biFlrzTJets" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</div>
+
+
+<div class="karavideo">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tV_L3fceGNA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+
+<div class="missyvideo">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/opkRF3UZSJw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+
+
+<div class="hammonsvideo">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WhwMYkSW564" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="newschoolvideo">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OY_2rHIt-cI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+
+<div class="sculpture">
+<img src="sculpture.png" title= "18. Richmond Barthe – Ferel Benga (1935)
+ "style="cursor:pointer" width="500" height="700" id="sculpture">
+
+
+ <script>
+  sculpture.onmousedown = function(event) {
+    // make the image position absolute and on top by z-index
+      sculpture.style.position = 'absolute';
+      sculpture.style.zIndex = 1000;
+        
+    // move it out of any current parents directly into body
+  // to make it positioned relative to the body    
+      document.body.appendChild(sculpture);
+
+      moveAt(event.pageX, event.pageY);
+
+   // moves the ball at (pageX, pageY) coordinates
+      function moveAt(pageX, pageY) {
+        sculpture.style.left = pageX - graphic.offsetWidth / 2 + 'px';
+        sculpture.style.top = pageY - graphic.offsetHeight / 2 + 'px';
+      }
+        
+      // move the ball on mousemove
+      function onMouseMove(event) {
+        moveAt(event.pageX, event.pageY);
+      }
+
+      document.addEventListener('mousemove', onMouseMove);
+
+     // drop the ball when you lift your finger
+      sculpture.onmouseup = function() {
+        document.removeEventListener('mousemove', onMouseMove);
+        sculpture.onmouseup = null;
+      };
+
+    };
+    sculpture.ondragstart = function() {
+      return false;
+    };
+  </script>
+
+</div>
+
+
+
+<div class="graphic">
+<img src="graphic.jpg" title= "17. Eddie Opera – SORG Identity Design (2008) "style="cursor:pointer" width="500" height="470" id="graphic">
+
+
+ <script>
+  graphic.onmousedown = function(event) {
+    // make the image position absolute and on top by z-index
+      graphic.style.position = 'absolute';
+      graphic.style.zIndex = 1000;
+        
+    // move it out of any current parents directly into body
+  // to make it positioned relative to the body    
+      document.body.appendChild(graphic);
+
+      moveAt(event.pageX, event.pageY);
+
+   // moves the ball at (pageX, pageY) coordinates
+      function moveAt(pageX, pageY) {
+        graphic.style.left = pageX - graphic.offsetWidth / 2 + 'px';
+        graphic.style.top = pageY - graphic.offsetHeight / 2 + 'px';
+      }
+        
+      // move the ball on mousemove
+      function onMouseMove(event) {
+        moveAt(event.pageX, event.pageY);
+      }
+
+      document.addEventListener('mousemove', onMouseMove);
+
+     // drop the ball when you lift your finger
+      graphic.onmouseup = function() {
+        document.removeEventListener('mousemove', onMouseMove);
+        graphic.onmouseup = null;
+      };
+
+    };
+
+
+    graphic.ondragstart = function() {
+      return false;
+    };
+  </script>
+
+</div>
+
+
+<div class="hayes">
+<img src="hayes.jpg" title= "16. Winold Reiss – Roland Hayes (1925)
+ "style="cursor:pointer" width="500" height="800" id="hayes">
+
+
+ <script>
+  hayes.onmousedown = function(event) {
+    // make the image position absolute and on top by z-index
+      hayes.style.position = 'absolute';
+      hayes.style.zIndex = 1000;
+        
+    // move it out of any current parents directly into body
+  // to make it positioned relative to the body    
+      document.body.appendChild(hayes);
+
+      moveAt(event.pageX, event.pageY);
+
+   // moves the ball at (pageX, pageY) coordinates
+      function moveAt(pageX, pageY) {
+        hayes.style.left = pageX - graphic.offsetWidth / 2 + 'px';
+        hayes.style.top = pageY - graphic.offsetHeight / 2 + 'px';
+      }
+        
+      // move the ball on mousemove
+      function onMouseMove(event) {
+        moveAt(event.pageX, event.pageY);
+      }
+
+      document.addEventListener('mousemove', onMouseMove);
+
+     // drop the ball when you lift your finger
+      hayes.onmouseup = function() {
+        document.removeEventListener('mousemove', onMouseMove);
+        hayes.onmouseup = null;
+      };
+
+    };
+
+
+    hayes.ondragstart = function() {
+      return false;
+    };
+  </script>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="ebony">
+<img src="ebony.gif" title= "1.Ebony Magazine Cover Design (1960)"style="cursor:pointer" width="460" height="500" id="ebony">
+
+
+ <script>
+  ebony.onmousedown = function(event) {
+    // make the image position absolute and on top by z-index
+      ebony.style.position = 'absolute';
+      ebony.style.zIndex = 1000;
+        
+    // move it out of any current parents directly into body
+  // to make it positioned relative to the body    
+      document.body.appendChild(ebony);
+
+      moveAt(event.pageX, event.pageY);
+
+   // moves the ball at (pageX, pageY) coordinates
+      function moveAt(pageX, pageY) {
+        ebony.style.left = pageX - ebony.offsetWidth / 2 + 'px';
+        ebony.style.top = pageY - ebony.offsetHeight / 2 + 'px';
+      }
+        
+      // move the ball on mousemove
+      function onMouseMove(event) {
+        moveAt(event.pageX, event.pageY);
+      }
+
+      document.addEventListener('mousemove', onMouseMove);
+
+     // drop the ball when you lift your finger
+      ebony.onmouseup = function() {
+        document.removeEventListener('mousemove', onMouseMove);
+        ebony.onmouseup = null;
+      };
+
+    };
+
+
+    ebony.ondragstart = function() {
+      return false;
+    };
+  </script>
+
+</div>
+
+
+
+<div class="viewmaster">
+<img src="viewmaster.png" title= "2.View Master – Charles Harrison (1958)"style="cursor:pointer" width="400" height="500" id="view">
+
+
+ <script>
+    view.onmousedown = function(event) {
+    // make the image position absolute and on top by z-index
+      view.style.position = 'absolute';
+      view.style.zIndex = 1000;
+        
+    // move it out of any current parents directly into body
+  // to make it positioned relative to the body    
+      document.body.appendChild(view);
+
+      moveAt(event.pageX, event.pageY);
+
+   // moves the ball at (pageX, pageY) coordinates
+      function moveAt(pageX, pageY) {
+        view.style.left = pageX - book.offsetWidth / 2 + 'px';
+        view.style.top = pageY - book.offsetHeight / 2 + 'px';
+      }
+        
+      // move the ball on mousemove
+      function onMouseMove(event) {
+        moveAt(event.pageX, event.pageY);
+      }
+
+      document.addEventListener('mousemove', onMouseMove);
+
+     // drop the ball when you lift your finger
+      view.onmouseup = function() {
+        document.removeEventListener('mousemove', onMouseMove);
+        view.onmouseup = null;
+      };
+
+    };
+
+
+    view.ondragstart = function() {
+      return false;
+    };
+  </script>
+
+</div>
+
+
+<div class="thrasher">
+<img src="thrasher.jpg" title= "3.Thasher Magazine Black Skateboarding Cover (2019)"style="cursor:pointer" width="275" height="400" id="thrasher">
+
+
+ <script>
+    thrasher.onmousedown = function(event) {
+    // make the image position absolute and on top by z-index
+      thrasher.style.position = 'absolute';
+      thrasher.style.zIndex = 1000;
+        
+    // move it out of any current parents directly into body
+  // to make it positioned relative to the body    
+      document.body.appendChild(spike);
+
+      moveAt(event.pageX, event.pageY);
+
+   // moves the ball at (pageX, pageY) coordinates
+      function moveAt(pageX, pageY) {
+        thrasher.style.left = pageX - book.offsetWidth / 2 + 'px';
+        thrasher.style.top = pageY - book.offsetHeight / 2 + 'px';
+      }
+        
+      // move the ball on mousemove
+      function onMouseMove(event) {
+        moveAt(event.pageX, event.pageY);
+      }
+
+      document.addEventListener('mousemove', onMouseMove);
+
+     // drop the ball when you lift your finger
+      thrasher.onmouseup = function() {
+        document.removeEventListener('mousemove', onMouseMove);
+        thrasher.onmouseup = null;
+      };
+
+    };
+
+
+    thrasher.ondragstart = function() {
+      return false;
+    };
+  </script>
+
+</div>
+
+
+<div class="archie">
+<img src="archie.gif" title= "4.Archie Boston Poster Design (1971)" style="cursor:pointer" width="445" height="430" id="archie">
+
+
+ <script>
+    archie.onmousedown = function(event) {
+    // make the image position absolute and on top by z-index
+      archie.style.position = 'absolute';
+      archie.style.zIndex = 1000;
+        
+    // move it out of any current parents directly into body
+  // to make it positioned relative to the body    
+      document.body.appendChild(archie);
+
+      moveAt(event.pageX, event.pageY);
+
+   // moves the ball at (pageX, pageY) coordinates
+      function moveAt(pageX, pageY) {
+        archie.style.left = pageX - archie.offsetWidth / 2 + 'px';
+        archie.style.top = pageY - archie.offsetHeight / 2 + 'px';
+      }
+        
+      // move the ball on mousemove
+      function onMouseMove(event) {
+        moveAt(event.pageX, event.pageY);
+      }
+
+      document.addEventListener('mousemove', onMouseMove);
+
+     // drop the ball when you lift your finger
+      archie.onmouseup = function() {
+        document.removeEventListener('mousemove', onMouseMove);
+        archie.onmouseup = null;
+      };
+
+    };
+
+
+    archie.ondragstart = function() {
+      return false;
+    };
+  </script>
+
+</div>
+
+
+
+
+
+<img src="spike.jpg" title= "5.Art Sims – Do The Right Thing Poster Design (1989)" style="cursor:pointer" width="275" height="400" id="spike">
+
+
+ <script>
+    spike.onmousedown = function(event) {
+    // make the image position absolute and on top by z-index
+      spike.style.position = 'absolute';
+      spike.style.zIndex = 1000;
+        
+    // move it out of any current parents directly into body
+  // to make it positioned relative to the body    
+      document.body.appendChild(spike);
+
+      moveAt(event.pageX, event.pageY);
+
+   // moves the ball at (pageX, pageY) coordinates
+      function moveAt(pageX, pageY) {
+        spike.style.left = pageX - book.offsetWidth / 2 + 'px';
+        spike.style.top = pageY - book.offsetHeight / 2 + 'px';
+      }
+        
+      // move the ball on mousemove
+      function onMouseMove(event) {
+        moveAt(event.pageX, event.pageY);
+      }
+
+      document.addEventListener('mousemove', onMouseMove);
+
+     // drop the ball when you lift your finger
+      spike.onmouseup = function() {
+        document.removeEventListener('mousemove', onMouseMove);
+        spike.onmouseup = null;
+      };
+
+    };
+
+
+    spike.ondragstart = function() {
+      return false;
+    };
+  </script>
+
+
+
+
+
+
+
+
+
+<img src="moto.png" title= "6. Motorola Rebrand – Thomas Miller (1967)" style="cursor:pointer" width="400" height="400" id="moto">
+
+
+ <script>
+    moto.onmousedown = function(event) {
+    // make the image position absolute and on top by z-index
+      moto.style.position = 'absolute';
+      moto.style.zIndex = 1000;
+        
+    // move it out of any current parents directly into body
+  // to make it positioned relative to the body    
+      document.body.appendChild(moto);
+
+      moveAt(event.pageX, event.pageY);
+
+   // moves the ball at (pageX, pageY) coordinates
+      function moveAt(pageX, pageY) {
+        moto.style.left = pageX - book.offsetWidth / 2 + 'px';
+        moto.style.top = pageY - book.offsetHeight / 2 + 'px';
+      }
+        
+      // move the ball on mousemove
+      function onMouseMove(event) {
+        moveAt(event.pageX, event.pageY);
+      }
+
+      document.addEventListener('mousemove', onMouseMove);
+
+     // drop the ball when you lift your finger
+      moto.onmouseup = function() {
+        document.removeEventListener('mousemove', onMouseMove);
+        moto.onmouseup = null;
+      };
+
+    };
+
+
+    moto.ondragstart = function() {
+      return false;
+    };
+  </script>
+
+
+<img src="jafa.gif" style="cursor:pointer" width="800" height="445" id="jafa">
+
+ <script>
+    jafa.onmousedown = function(event) {
+    // make the image position absolute and on top by z-index
+      jafa.style.position = 'absolute';
+      jafa.style.zIndex = 1000;
+        
+    // move it out of any current parents directly into body
+  // to make it positioned relative to the body    
+      document.body.appendChild(jafa);
+
+      moveAt(event.pageX, event.pageY);
+
+   // moves the ball at (pageX, pageY) coordinates
+      function moveAt(pageX, pageY) {
+        jafa.style.left = pageX - jafa.offsetWidth / 2 + 'px';
+        jafa.style.top = pageY - jafa.offsetHeight / 2 + 'px';
+      }
+        
+      // move the ball on mousemove
+      function onMouseMove(event) {
+        moveAt(event.pageX, event.pageY);
+      }
+
+      document.addEventListener('mousemove', onMouseMove);
+
+     // drop the ball when you lift your finger
+      jafa.onmouseup = function() {
+        document.removeEventListener('mousemove', onMouseMove);
+        jafa.onmouseup = null;
+      };
+
+    };
+
+
+    jafa.ondragstart = function() {
+      return false;
+    };
+  </script>
+
+
+<img src="dress.png" title= "7. Ann Lowe – Jacqueline Kennedy Dress (1953)" style="cursor:pointer" width="250" height="500" id="dress">
+
+ <script>
+    dress.onmousedown = function(event) {
+    // make the image position absolute and on top by z-index
+      dress.style.position = 'absolute';
+      dress.style.zIndex = 1000;
+        
+    // move it out of any current parents directly into body
+  // to make it positioned relative to the body    
+      document.body.appendChild(dress);
+
+      moveAt(event.pageX, event.pageY);
+
+   // moves the ball at (pageX, pageY) coordinates
+      function moveAt(pageX, pageY) {
+        dress.style.left = pageX - dress.offsetWidth / 2 + 'px';
+        dress.style.top = pageY - dress.offsetHeight / 2 + 'px';
+      }
+        
+      // move the ball on mousemove
+      function onMouseMove(event) {
+        moveAt(event.pageX, event.pageY);
+      }
+
+      document.addEventListener('mousemove', onMouseMove);
+
+     // drop the ball when you lift your finger
+      dress.onmouseup = function() {
+        document.removeEventListener('mousemove', onMouseMove);
+        dress.onmouseup = null;
+      };
+
+    };
+
+
+    dress.ondragstart = function() {
+      return false;
+    };
+  </script>
+
+
+<img src="book.png" title= "8. Virgil Abloh: Figures of Speech Book (2019)" style="cursor:pointer" width="400" height="400" id="book">
+
+
+ <script>
+    book.onmousedown = function(event) {
+    // make the image position absolute and on top by z-index
+      book.style.position = 'absolute';
+      book.style.zIndex = 1000;
+        
+    // move it out of any current parents directly into body
+  // to make it positioned relative to the body    
+      document.body.appendChild(book);
+
+      moveAt(event.pageX, event.pageY);
+
+   // moves the ball at (pageX, pageY) coordinates
+      function moveAt(pageX, pageY) {
+        book.style.left = pageX - book.offsetWidth / 2 + 'px';
+        book.style.top = pageY - book.offsetHeight / 2 + 'px';
+      }
+        
+      // move the ball on mousemove
+      function onMouseMove(event) {
+        moveAt(event.pageX, event.pageY);
+      }
+
+      document.addEventListener('mousemove', onMouseMove);
+
+     // drop the ball when you lift your finger
+      book.onmouseup = function() {
+        document.removeEventListener('mousemove', onMouseMove);
+        book.onmouseup = null;
+      };
+
+    };
+
+
+    book.ondragstart = function() {
+      return false;
+    };
+  </script>
+
+<img src="doll.png" title= "9. Patty Jo – Jackie Ormes (1947)" style="cursor:pointer" width="400" height="600" id="doll">
+
+
+ <script>
+    doll.onmousedown = function(event) {
+    // make the image position absolute and on top by z-index
+      doll.style.position = 'absolute';
+      doll.style.zIndex = 1000;
+        
+    // move it out of any current parents directly into body
+  // to make it positioned relative to the body    
+      document.body.appendChild(doll);
+
+      moveAt(event.pageX, event.pageY);
+
+   // moves the ball at (pageX, pageY) coordinates
+      function moveAt(pageX, pageY) {
+        doll.style.left = pageX - doll.offsetWidth / 2 + 'px';
+        doll.style.top = pageY - doll.offsetHeight / 2 + 'px';
+      }
+        
+      // move the ball on mousemove
+      function onMouseMove(event) {
+        moveAt(event.pageX, event.pageY);
+      }
+
+      document.addEventListener('mousemove', onMouseMove);
+
+     // drop the ball when you lift your finger
+      doll.onmouseup = function() {
+        document.removeEventListener('mousemove', onMouseMove);
+        doll.onmouseup = null;
+      };
+
+    };
+
+
+    doll.ondragstart = function() {
+      return false;
+    };
+  </script>
+
+
+  <img src="paulcolin.png" title= "10. Bal Negre – Paul Colin (1925)" style="cursor:pointer" width="600" height="800" id="paul">
+
+
+ <script>
+    paul.onmousedown = function(event) {
+    // make the image position absolute and on top by z-index
+      paul.style.position = 'absolute';
+      paul.style.zIndex = 1000;
+
+
+        
+    // move it out of any current parents directly into body
+  // to make it positioned relative to the body    
+      document.body.appendChild(paul);
+
+      moveAt(event.pageX, event.pageY);
+
+   // moves the ball at (pageX, pageY) coordinates
+      function moveAt(pageX, pageY) {
+        paul.style.left = pageX - paul.offsetWidth / 2 + 'px';
+        paul.style.top = pageY - paul.offsetHeight / 2 + 'px';
+      }
+        
+      // move the ball on mousemove
+      function onMouseMove(event) {
+        moveAt(event.pageX, event.pageY);
+      }
+
+      document.addEventListener('mousemove', onMouseMove);
+
+     // drop the ball when you lift your finger
+      paul.onmouseup = function() {
+        document.removeEventListener('mousemove', onMouseMove);
+        paul.onmouseup = null;
+      };
+
+    };
+
+
+    paul.ondragstart = function() {
+      return false;
+    };
+  </script>
+
+
+
+  <img src="essay.jpg" title= "11. The Black Experience in Graphic Design – Dorothy Jackson (1968)" style="cursor:pointer" width="600" height="400" id="essay">
+
+
+ <script>
+    essay.onmousedown = function(event) {
+    // make the image position absolute and on top by z-index
+      essay.style.position = 'absolute';
+      essay.style.zIndex = 1000;
+  
+
+        
+    // move it out of any current parents directly into body
+  // to make it positioned relative to the body    
+      document.body.appendChild(essay);
+
+      moveAt(event.pageX, event.pageY);
+
+   // moves the ball at (pageX, pageY) coordinates
+      function moveAt(pageX, pageY) {
+        essay.style.left = pageX - essay.offsetWidth / 2 + 'px';
+        essay.style.top = pageY - essay.offsetHeight / 2 + 'px';
+      }
+        
+      // move the ball on mousemove
+      function onMouseMove(event) {
+        moveAt(event.pageX, event.pageY);
+      }
+
+      document.addEventListener('mousemove', onMouseMove);
+
+     // drop the ball when you lift your finger
+      essay.onmouseup = function() {
+        document.removeEventListener('mousemove', onMouseMove);
+        essay.onmouseup = null;
+      };
+
+    };
+
+
+    essay.ondragstart = function() {
+      return false;
+    };
+  </script>
+
+   <img src="solange.png" title= "12. Solange –METATRONIA (2018)"style="cursor:pointer" width="375" height="400" id="solange">
+
+
+ <script>
+    solange.onmousedown = function(event) {
+    // make the image position absolute and on top by z-index
+      solange.style.position = 'absolute';
+      solange.style.zIndex = 1000;
+  
+
+        
+    // move it out of any current parents directly into body
+  // to make it positioned relative to the body    
+      document.body.appendChild(solange);
+
+      moveAt(event.pageX, event.pageY);
+
+   // moves the ball at (pageX, pageY) coordinates
+      function moveAt(pageX, pageY) {
+        solange.style.left = pageX - solange.offsetWidth / 2 + 'px';
+        solange.style.top = pageY - solange.offsetHeight / 2 + 'px';
+      }
+        
+      // move the ball on mousemove
+      function onMouseMove(event) {
+        moveAt(event.pageX, event.pageY);
+      }
+
+      document.addEventListener('mousemove', onMouseMove);
+
+     // drop the ball when you lift your finger
+      solange.onmouseup = function() {
+        document.removeEventListener('mousemove', onMouseMove);
+        solange.onmouseup = null;
+      };
+
+    };
+
+
+    solange.ondragstart = function() {
+      return false;
+    };
+  </script>
+
+   <img src="louis.jpg" title= "13. Louis Armstrong (1920)"style="cursor:pointer" width="600" height="500" id="louis">
+
+
+ <script>
+    louis.onmousedown = function(event) {
+    // make the image position absolute and on top by z-index
+      louis.style.position = 'absolute';
+      louis.style.zIndex = 1000;
+  
+
+        
+    // move it out of any current parents directly into body
+  // to make it positioned relative to the body    
+      document.body.appendChild(louis);
+
+      moveAt(event.pageX, event.pageY);
+
+   // moves the ball at (pageX, pageY) coordinates
+      function moveAt(pageX, pageY) {
+        louis.style.left = pageX - louis.offsetWidth / 2 + 'px';
+        louis.style.top = pageY - louis.offsetHeight / 2 + 'px';
+      }
+        
+      // move the ball on mousemove
+      function onMouseMove(event) {
+        moveAt(event.pageX, event.pageY);
+      }
+
+      document.addEventListener('mousemove', onMouseMove);
+
+     // drop the ball when you lift your finger
+      louis.onmouseup = function() {
+        document.removeEventListener('mousemove', onMouseMove);
+        louis.onmouseup = null;
+      };
+
+    };
+
+
+    louis.ondragstart = function() {
+      return false;
+    };
+  </script>
+
+
+
+
+
+<div class="up">
+
+ <img src="7up.jpg" title= "14. Thomas Miller – 7up Rebranding (1975)"style="cursor:pointer" width="600" height="425" id="up">
+
+
+ <script>
+    up.onmousedown = function(event) {
+    // make the image position absolute and on top by z-index
+      up.style.position = 'absolute';
+      up.style.zIndex = 1000;
+  
+
+        
+    // move it out of any current parents directly into body
+  // to make it positioned relative to the body    
+      document.body.appendChild(up);
+
+      moveAt(event.pageX, event.pageY);
+
+   // moves the ball at (pageX, pageY) coordinates
+      function moveAt(pageX, pageY) {
+        up.style.left = pageX - up.offsetWidth / 2 + 'px';
+        up.style.top = pageY - up.offsetHeight / 2 + 'px';
+      }
+        
+      // move the ball on mousemove
+      function onMouseMove(event) {
+        moveAt(event.pageX, event.pageY);
+      }
+
+      document.addEventListener('mousemove', onMouseMove);
+
+     // drop the ball when you lift your finger
+      up.onmouseup = function() {
+        document.removeEventListener('mousemove', onMouseMove);
+        up.onmouseup = null;
+      };
+
+    };
+
+
+    up.ondragstart = function() {
+      return false;
+    };
+  </script>
+
+</div>
+
+
+<div class="telfar">
+
+ <img src="telfar.png" title= "15. Telfar Clemens – Telfar Bag (2019)"style="cursor:pointer" width="360" height="415" id="telfar">
+
+
+ <script>
+    telfar.onmousedown = function(event) {
+    // make the image position absolute and on top by z-index
+      telfar.style.position = 'absolute';
+      telfar.style.zIndex = 1000;
+  
+
+        
+    // move it out of any current parents directly into body
+  // to make it positioned relative to the body    
+      document.body.appendChild(telfar);
+
+      moveAt(event.pageX, event.pageY);
+
+   // moves the ball at (pageX, pageY) coordinates
+      function moveAt(pageX, pageY) {
+        telfar.style.left = pageX - up.offsetWidth / 2 + 'px';
+        telfar.style.top = pageY - up.offsetHeight / 2 + 'px';
+      }
+        
+      // move the ball on mousemove
+      function onMouseMove(event) {
+        moveAt(event.pageX, event.pageY);
+      }
+
+      document.addEventListener('mousemove', onMouseMove);
+
+     // drop the ball when you lift your finger
+      telfar.onmouseup = function() {
+        document.removeEventListener('mousemove', onMouseMove);
+        telfar.onmouseup = null;
+      };
+
+    };
+
+
+    telfar.ondragstart = function() {
+      return false;
+    };
+  </script>
+
+</div>
+
+
+
+
+
+
+</body>
+</html>
